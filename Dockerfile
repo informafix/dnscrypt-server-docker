@@ -3,7 +3,7 @@ MAINTAINER Frank Denis
 ENV SERIAL 1
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV BUILD_DEPS autoconf file gcc git libc-dev make pkg-config curl
+ENV BUILD_DEPS autoconf file gcc git libc-dev make pkg-config curl ca-certificates apt-utils
 
 RUN set -x && \
     apt-get update && apt-get install -y \
