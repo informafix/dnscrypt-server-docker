@@ -35,7 +35,6 @@ ENV UNBOUND_SHA256 ad3823f5895f59da9e408ea273fcf81d8a76914c18864fba256d7f140b83e
 ENV UNBOUND_DOWNLOAD_URL http://www.unbound.net/downloads/unbound-${UNBOUND_VERSION}.tar.gz
 
 RUN set -x && \
-    apt-get update && \
     apt-get install -y \
         libevent-2.0 \
         libevent-dev \
@@ -106,7 +105,6 @@ ENV DNSCRYPT_WRAPPER_SHA256 d26f9d6329653b71bed5978885385b45f16596021f219f46e49d
 ENV DNSCRYPT_WRAPPER_DOWNLOAD_URL https://github.com/Cofyc/dnscrypt-wrapper/releases/download/v${DNSCRYPT_WRAPPER_VERSION}/dnscrypt-wrapper-v${DNSCRYPT_WRAPPER_VERSION}.tar.bz2
 
 RUN set -x && \
-    apt-get update && \
     apt-get install -y \
         libevent-2.0 \
         libevent-dev \
