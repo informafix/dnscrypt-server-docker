@@ -1,5 +1,5 @@
 FROM armv7/armhf-ubuntu
-MAINTAINER Frank Denis
+MAINTAINER Informafix
 ENV SERIAL 1
 
 ENV DEBIAN_FRONTEND noninteractive
