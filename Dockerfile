@@ -1,4 +1,4 @@
-FROM jedisct1/phusion-baseimage-latest:15.10
+FROM armv7/armhf-ubuntu
 MAINTAINER Frank Denis
 ENV SERIAL 1
 
