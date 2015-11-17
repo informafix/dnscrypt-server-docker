@@ -1,6 +1,6 @@
 [![DNSCrypt](https://raw.github.com/jedisct1/dnscrypt-server-docker/master/dnscrypt-small.png)](https://dnscrypt.org)
 
-DNSCrypt server Docker image
+DNSCrypt server Docker image for ARMv7
 ============================
 
 Run your own caching, non-censoring, non-logging, DNSSEC-capable,
